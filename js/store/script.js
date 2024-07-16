@@ -78,26 +78,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     const loadMoreButton = document.getElementById("load-more-button")
-
-    // Initial population of products
+    const sortBy = document.getElementById("sort-by")
     populateProducts(products);
 
-    // Event listener for load more button
+    sortBy.addEventListener("click", () => {
+        toggleSortOptions()
+    })
+
     loadMoreButton.addEventListener("click", () => {
         populateProducts(additionalProducts);
     });
 
+    function toggleSortOptions() {
+        const sortOptions = document.getElementById('sort-options');
+        const sortIcon = document.getElementById('sort-icon');
+        if (sortOptions.classList.contains('hidden')) {
+            sortOptions.classList.remove('hidden');
+            sortIcon.classList.remove('fa-angle-down');
+            sortIcon.classList.add('fa-angle-up');
+        } else {
+            sortOptions.classList.add('hidden');
+            sortIcon.classList.remove('fa-angle-up');
+            sortIcon.classList.add('fa-angle-down');
+        }
+    }
+
     const sortLowToHighButton = document.getElementById("sortLowToHigh");
     const sortHighToLowButton = document.getElementById("sortHighToLow");
 
-    // Event listeners for sort buttons
     sortLowToHighButton.addEventListener("click", () => {
+        productContainer.innerHTML = "";
 
         products.sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
         populateProducts(products);
     });
 
     sortHighToLowButton.addEventListener("click", () => {
+        productContainer.innerHTML = "";
         products.sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
         populateProducts(products);
     });
