@@ -3,15 +3,15 @@
 
 ### Executed by Sub-Teams (2 Members)
 - **Colored Logo** (A, B)
-  - Yatish, Pramukh
+  - Yathish, Pramukh
 - **Title in Own Font** (A, C)
-  - Yatish, Manu
+  - Yathish, Manu
 - **Team Picture** (B, C)
   - Pramukh, Manu
 
 ### Individual Work (1 Member)
 - **Icon-A** (A)
-  - Yatish
+  - Yathish
   - Description: Cart icon
 - **Icon-B** (B)
   - Pramukh
