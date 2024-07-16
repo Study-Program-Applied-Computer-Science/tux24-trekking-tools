@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: white;   
+}
+
+.bar
+{
+    display: flex;
+    flex-direction:column;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:yellowgreen;
+    align-items: center;
+    
+    
+}
+.header .logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo a 
+{
+    
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.header .logo .name
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.search_box
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    border-radius: 50px;
+}
+
+.search_box img {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px; 
+}
+
+.search_box input[type=text]
+{
+    border: none;
+    outline: none;
+}
+
+.navbar
+{
+    background-color:rgb(2, 99, 2,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.action ul
+{   
+    display: flex;
+    list-style: none;
+    gap: 40px;  
+}
+
+.action li
+{
+    margin: 10px;
+}
+
+.action li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.action li :hover
+{
+    border-bottom:2px solid black;
+}
+
+.img-text
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.img-text .img img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}   
+
+.img-text .text
+{
+    margin: 0;
+    padding: 80px;
+    background-color:white;
+}
+
+.img-text .text h1
+{
+margin-bottom: 16px;
+font-size: 36px;
+
+}
+
+.img-text .text p
+{   
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: .3px;
+} 
+
+
+.follow-us h1
+{
+    text-align: center;
+    margin: 10px;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+.icons ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.icons ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px;    
+}
+
+.feedback-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f4;
+}
+.feedback-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+}
+#feedback-form
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    background-color:white;
+    margin: 24px;
+    padding: 20px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+#feedback-form h1
+{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.input
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.input label
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input input , .input textarea
+{
+    margin-top: 10px;
+    border:none ;
+    border: 1px solid grey;
+    padding: 5px;
+    
+    
+}
+
+
+#feedback-form button
+{
+    width: 50%;
+    padding: 10px;
+    background-color: #F9BA00;
+}
+
+#feedback-form hr{
+    display: block;
+  height: 5px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+
+.team-info
+{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.team
+{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 64px;
+}
+
+.Pramukh
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Yathish
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Manu
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pramukh-image
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#yathish-image
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#manu-image
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#pramukh-info h3
+{
+    font-size: 30px;
+}
+
+#yathish-info h3
+{
+    font-size: 30px;
+}
+
+#manu-info h3
+{
+    font-size: 30px;
+}
+
+.team-info h1{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 640px)
+{
+    .img-text .text
+    {
+        width: 100%;
+    }
+
+    .feedback-container
+    {
+        width:100%;
+    }
+
+    .feedback-form
+    {
+        justify-content: center;
+        align-items: center
+    }
+};
