@@ -295,3 +295,15 @@ main {
 .advice {
   padding: var(--spacing-xl) 0;
 }
+
+
+
+/* packing items*/
+.firstthings .card-container{
+  display:flex
+}
+.firstthings .card-container .card{
+  width:25%;
+  padding:  0 var(--spacing-sm)  0 0;
+  margin:  var(--spacing-sm)  0 0;
+}
