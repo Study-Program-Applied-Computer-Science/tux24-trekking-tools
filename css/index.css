@@ -513,3 +513,12 @@ html,body{
   position:relative;
   overflow-x: hidden;
 }
+@font-face {
+  font-family: "CustomFont";
+  src: url("../asset/customFont.otf") format("opentype");
+}
+
+.custom-header {
+  font-family: "CustomFont", sans-serif;
+  color: rgb(133, 87, 44);
+}
