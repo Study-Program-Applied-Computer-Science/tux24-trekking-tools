@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", () => {
     const products = [
         {
-            image: "../asset//images/chaewul-kim-3owKeypl5ls-unsplash.jpg",
+            image: "../../asset/images/chaewul-kim-3owKeypl5ls-unsplash.jpg",
             title: "Hiking Shoes",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             price: "$99.99"
         },
         {
-            image: "../asset//images/field-forest-and-fire-zW8NsaUruMU-unsplash.jpg",
+            image: "../../asset/images/field-forest-and-fire-zW8NsaUruMU-unsplash.jpg",
             title: "Hiking Poles",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             price: "$26.99"
         },
         {
-            image: "../asset//images/goutham-krishna-lITrCLM6hHc-unsplash.jpg",
+            image: "../../asset/images/goutham-krishna-lITrCLM6hHc-unsplash.jpg",
             title: "Tent",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             price: "$15.99"
         },
         {
-            image: "../asset//images/hendrik-morkel-h6mb47WAkbE-unsplash.jpg",
+            image: "../../asset/images/hendrik-morkel-h6mb47WAkbE-unsplash.jpg",
             title: "Backpack",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             price: "$39.99"
@@ -28,28 +28,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const additionalProducts = [
         {
-            image: "../asset//images/field-forest-and-fire-zW8NsaUruMU-unsplash.jpg",
+            image: "../../asset/images/urban-sanden-RCF-_l7vITo-unsplash.jpg",
             title: "Hiking Poles",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            price: "$26.99"
+            price: "$21.99"
         },
         {
-            image: "../asset//images/goutham-krishna-lITrCLM6hHc-unsplash.jpg",
+            image: "../../asset/images/fadhila-nurhakim-9nSWpYZIxYs-unsplash.jpg",
             title: "Tent",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            price: "$15.99"
+            price: "$45.99"
         },
         {
-            image: "../asset//images/hendrik-morkel-h6mb47WAkbE-unsplash.jpg",
-            title: "Backpack",
+            image: "../../asset/images/tomasz-biskup-WiB2V6J3Dmo-unsplash.jpg",
+            title: "Hiking Shoes",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            price: "$39.99"
+            price: "$65.99"
         },
         {
-            image: "../asset//images/hendrik-morkel-h6mb47WAkbE-unsplash.jpg",
+            image: "../../asset/images/yann-allegre-dN5_TGCfyMg-unsplash.jpg",
             title: "Backpack",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            price: "$39.99"
+            price: "$12.99"
         }
     ];
     const productContainer = document.querySelector(".products");
