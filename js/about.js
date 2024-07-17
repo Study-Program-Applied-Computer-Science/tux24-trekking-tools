@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const namepattern = /^[A-Za-z\s]+$/;
     const phonepattern = /^[0-9]+$/;
     const emailpattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const successmessage = document.getElementById("successMessage");
     
     
     crviewmorebtn.addEventListener("click",()=>{      
@@ -117,6 +118,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     
         if(result)
         {
+            successmessage.style.display="block";
             const info =
             {
                 FullName : fullname.value,
