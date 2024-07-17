@@ -109,6 +109,7 @@ p {
   line-height: var(--p-height);
   font-weight: 400;
   margin: var(--spacing-md) 0;
+  text-align: justify;
 }
 
 html,
@@ -211,7 +212,7 @@ body {
   border-radius: 20px;
   border: none;
   background-color: transparent;
-  color: var(--green-2);
+  color: var(--primary-accent);
   transition: all 0.15s ease;
 }
 
