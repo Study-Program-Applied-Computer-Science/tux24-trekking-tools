@@ -17,3 +17,8 @@ footer {
     box-sizing: border-box;
     background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
 }
+
+.add-cart {
+    background: #56ab2f;
+    color: #fff;
+}

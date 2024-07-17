@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p class="text-gray-600 mb-4">${product.description}</p>
                     <div class="flex items-center justify-between">
                         <p class="text-green-700 font-semibold">${product.price}</p>
-                        <button class="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition-colors">Add to Cart</button>
+                        <button class="add-cart  text-white px-3 py-1 rounded hover:bg-green-700 transition-colors">Add to Cart</button>
                     </div>
                 </div>
             `;
