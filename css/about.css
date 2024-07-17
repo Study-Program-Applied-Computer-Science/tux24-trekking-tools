@@ -14,12 +14,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4px 26px;
 }
 
 .action ul {
   display: flex;
   list-style: none;
-  gap: 40px;
+  gap: 10px;
 }
 
 .action li {
@@ -29,16 +30,6 @@ body {
 .action li a {
   text-decoration: none;
   color: white;
-}
-
-.action li :hover {
-  border-bottom: 2px solid black;
-}
-
-.logos {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
 }
 
 .img-text {
@@ -97,12 +88,14 @@ body {
   align-items: center;
   background-color: #f5f5f4;
 }
+
 .feedback-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
 }
+
 #feedback-form {
   display: flex;
   flex-direction: column;
@@ -209,6 +202,7 @@ body {
 .info {
   text-wrap: wrap;
 }
+
 .info h3 {
   font-size: 24px;
   font-weight: 600;
