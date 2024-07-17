@@ -303,8 +303,7 @@ main {
   place-self: center;
 }
 .advice-heading {
-  display: flex;
-  justify-content: center;
+  margin: var(--spacing-md) 0;
 }
 
 .advice {
@@ -449,4 +448,68 @@ main {
 }
 .footer .col a{
   padding :0;
+}
+@media only screen and (max-width:1114px){
+  .section-container{
+    padding:0 var(--spacing-md);
+  }
+}
+
+@media only screen and (max-width:768px){
+  :root{
+    --h1-size:64px;
+    --h1-height:72px;
+    --h3-size:34px;
+  }
+  .firstthings .card-container{
+    flex-wrap: wrap;
+    
+  }
+  .firstthings .card-container .card{
+    width:50%;
+    padding: 0 var(--spacing-sm);
+    margin:var(--spacing-sm) 0;
+    
+  }
+  .benifits .card-container{
+    flex-wrap: wrap;
+  }
+  .benifits .card-container .card{
+    width:50%;
+    margin:var(--spacing-sm) 0;
+    padding: 0 var(--spacing-sm);
+    
+    
+  }
+  .promotion .section-container .two-column{
+    flex-direction: column;
+  }
+  .promotion .two-column > .col-left {
+    width:100%;
+    padding:var(--spacing-sm);
+    margin: var(--spacing-sm);
+
+  }
+  .promotion .two-column > .col-right {
+    flex-direction: column;
+    padding:0;
+    width:100%;
+    margin:0 var(--spacing-md);
+
+  }
+  .promotion .col-right .card {
+    width: 100%;
+    padding: var(--spacing-sm) 0;
+    margin: var(--spacing-sm) 0;
+  }
+  .promotion .col-right .card .secondary-button{
+    padding: 0;
+  }
+}
+
+
+html,body{
+  width:100%;
+  position:relative;
+  overflow-x: hidden;
 }
