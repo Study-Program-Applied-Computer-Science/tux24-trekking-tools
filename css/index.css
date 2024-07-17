@@ -107,7 +107,10 @@ p {
   font-weight: 400;
   margin: var(--spacing-md) 0;
 }
-
+html,body{
+  width:100%;
+  overflow-x: hidden;
+}
 body {
   font-family: var(--body-font);
   color: var(--text-dark);
@@ -234,6 +237,9 @@ body {
 }
 .hamburger-button{
   display:none;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 .menu {
   display: flex;
@@ -471,10 +477,22 @@ main {
   }
   .navbar .menu{
     display:none;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background:linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+    padding: var(--spacing-md) 0;
+    margin: 0;
   }
   .navbar .custom-logos{
     display: none;
   }
+  .menu.active{
+    display: flex;
+  }
+
   .hamburger-button{
     width:50px;
     height:30px;
@@ -497,6 +515,8 @@ main {
   }
   .hero-tree{
     height: 325px;
+    padding: 0 var(--spacing-sm) 0 var(--spacing-sm);
+   
 
   }
   .hero .col-left{
@@ -510,7 +530,24 @@ main {
   .hero .hero-tree-container {
     height: 350px;
   }
+  .advice .two-column{
+    flex-direction: column;
+  }
+  .advice .two-column .col-left{
+    width:100%;
+    --h5-size: 20px;
+    --p-size:15px;
+    
+  }
+  .advice .two-column .col-right{
+    padding: 0;
+    width:100%;
+    --h5-size: 20px;
+    --p-size:15px;
+  }
   
+
+
   .firstthings .card-container{
     flex-wrap: wrap;
     
@@ -566,14 +603,10 @@ main {
 
 
 
-html,body{
-  width:100%;
-  position:relative;
-  overflow-x: hidden;
-}
+
 @font-face {
   font-family: "CustomFont";
-  src: url("../asset/customFont.otf") format("opentype");
+  src: url("../asset/trekking-font-final.otf") format("opentype");
 }
 
 .custom-header {
