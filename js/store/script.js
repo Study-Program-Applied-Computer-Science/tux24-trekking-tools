@@ -86,7 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     loadMoreButton.addEventListener("click", () => {
-        populateProducts(additionalProducts);
+        productContainer.innerHTML = "";
+        products.push(...additionalProducts);
+        populateProducts(products);
     });
 
     function toggleSortOptions() {

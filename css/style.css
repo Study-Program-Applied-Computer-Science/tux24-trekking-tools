@@ -1,0 +1,19 @@
+.hero {
+    background-image: url('../asset/images/sergey-pesterev-ijFuMdN_02E-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white
+}
+
+header {
+    padding: 0 var(--spacing-md) 0 var(--spacing-lg);
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+}
+
+footer {
+    padding: 0 var(--spacing-md) 0 var(--spacing-lg);
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+}
