@@ -1,3 +1,7 @@
+:root {
+  --body-font: "Roboto", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +9,7 @@
 }
 
 body {
+  font-family: var(--body-font);
   min-height: 100vh;
   background-color: white;
 }

@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
             productCard.className = "product-card bg-white rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-2";
 
             productCard.innerHTML = `
-                <img src="${product.image}" alt="${product.title}" class="w-full h-48 object-cover rounded-t-lg">
-                <div class="p-5">
+                <img src="${product.image}" alt="${product.title}" class="w-full h-48 object-cover rounded-t-lg cursor-pointer">
+                <div class="p-5 cursor-pointer">
                     <h3 class="text-xl font-medium mb-2">${product.title}</h3>
                     <p class="text-gray-600 mb-4">${product.description}</p>
                     <div class="flex items-center justify-between">
