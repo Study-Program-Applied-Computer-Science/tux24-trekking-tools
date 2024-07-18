@@ -3,26 +3,50 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             image: "../../asset/images/chaewul-kim-3owKeypl5ls-unsplash.jpg",
             title: "Hiking Shoes",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Perfect for all terrains, these hiking shoes provide durability and comfort.",
             price: "$99.99"
         },
         {
             image: "../../asset/images/field-forest-and-fire-zW8NsaUruMU-unsplash.jpg",
             title: "Hiking Poles",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Lightweight and sturdy hiking poles for all your trekking needs.",
             price: "$26.99"
         },
         {
             image: "../../asset/images/goutham-krishna-lITrCLM6hHc-unsplash.jpg",
             title: "Tent",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "A compact and easy-to-set-up tent, perfect for outdoor adventures.",
             price: "$15.99"
         },
         {
             image: "../../asset/images/hendrik-morkel-h6mb47WAkbE-unsplash.jpg",
             title: "Backpack",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Spacious and comfortable, ideal for long hikes and expeditions.",
             price: "$39.99"
+        },
+        {
+            image: "../../asset/images/urban-sanden-RCF-_l7vITo-unsplash.jpg",
+            title: "Hiking Poles",
+            description: "Reliable and adjustable, these poles enhance your hiking experience.",
+            price: "$21.99"
+        },
+        {
+            image: "../../asset/images/fadhila-nurhakim-9nSWpYZIxYs-unsplash.jpg",
+            title: "Tent",
+            description: "Durable and weather-resistant tent, suitable for all seasons.",
+            price: "$45.99"
+        },
+        {
+            image: "../../asset/images/tomasz-biskup-WiB2V6J3Dmo-unsplash.jpg",
+            title: "Hiking Shoes",
+            description: "Designed for ultimate comfort and grip on rough terrains.",
+            price: "$65.99"
+        },
+        {
+            image: "../../asset/images/yann-allegre-dN5_TGCfyMg-unsplash.jpg",
+            title: "Backpack",
+            description: "Lightweight and ergonomic, perfect for carrying all your gear.",
+            price: "$12.99"
         }
     ];
 
@@ -30,28 +54,29 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             image: "../../asset/images/urban-sanden-RCF-_l7vITo-unsplash.jpg",
             title: "Hiking Poles",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Reliable and adjustable, these poles enhance your hiking experience.",
             price: "$21.99"
         },
         {
             image: "../../asset/images/fadhila-nurhakim-9nSWpYZIxYs-unsplash.jpg",
             title: "Tent",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Durable and weather-resistant tent, suitable for all seasons.",
             price: "$45.99"
         },
         {
             image: "../../asset/images/tomasz-biskup-WiB2V6J3Dmo-unsplash.jpg",
             title: "Hiking Shoes",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Designed for ultimate comfort and grip on rough terrains.",
             price: "$65.99"
         },
         {
             image: "../../asset/images/yann-allegre-dN5_TGCfyMg-unsplash.jpg",
             title: "Backpack",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Lightweight and ergonomic, perfect for carrying all your gear.",
             price: "$12.99"
         }
     ];
+
     const productContainer = document.querySelector(".products");
 
 
@@ -86,6 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     loadMoreButton.addEventListener("click", () => {
+        loadMoreButton.classList.add('hidden');
         productContainer.innerHTML = "";
         products.push(...additionalProducts);
         populateProducts(products);
