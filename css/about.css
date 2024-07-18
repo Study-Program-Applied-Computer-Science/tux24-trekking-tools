@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+  border-bottom: 1px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;

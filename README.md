@@ -22,4 +22,10 @@
 
 ---
 
+### Pages developed by
+- Manu : Store page [store-page responsive screenshot.zip](https://github.com/user-attachments/files/16276335/store-page.responsive.screenshot.zip)
+- Yathish : Landing page [landing-page screenshot.zip](https://github.com/user-attachments/files/16276337/landing-page.screenshot.zip)
+- Pramukh : [about-us screenshot.zip](https://github.com/user-attachments/files/16276343/about-us.screenshot.zip)
+
+
 This README includes the roles and responsibilities of each team member for the project. If you have any questions or need further clarification, please feel free to reach out.
