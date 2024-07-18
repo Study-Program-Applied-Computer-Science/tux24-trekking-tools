@@ -56,6 +56,11 @@ body {
   font-size: 30px;
 }
 
+.social-media {
+  background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+  padding-top: 10px;
+}
+
 .img-text .text p {
   font-size: 20px;
   line-height: 30px;
